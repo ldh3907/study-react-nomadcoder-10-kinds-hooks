@@ -1,11 +1,13 @@
 import "./App.css";
 import { HashRouter, Route } from "react-router-dom";
 import Count from "./components/count";
+import Navigation from "./components/navigation";
 
 function App() {
   return (
     <HashRouter>
-      <Route path="/" exact={ture} component={Count} />
+      <Navigation />
+      <Route path="/" exact={true} component={Count} />
     </HashRouter>
   );
 }

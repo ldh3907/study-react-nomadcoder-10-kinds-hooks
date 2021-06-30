@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const count = () => {
+const Count = () => {
   const [item, setItem] = useState(1);
   const incrementItem = () => setItem(item + 1);
   const decrementItem = () => setItem(item - 1);
@@ -18,4 +18,4 @@ const count = () => {
   );
 };
 
-export default count;
+export default Count;
