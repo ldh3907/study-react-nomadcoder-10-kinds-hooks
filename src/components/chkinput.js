@@ -45,8 +45,11 @@ const CheckInput = () => {
               {...name}
             />
             <div className="chkinput-error">{name.error}</div>
-            <div className="chkinput-explain">
-              useState 훅을 사용하여 만들었습니다.
+            <div className="chkinput-explains">
+              <div className="chkinput-process">입력해주세요</div>
+              <div className="chkinput-explain">
+                useState 훅을 사용하여 만들었습니다.
+              </div>
             </div>
           </div>
         </div>
