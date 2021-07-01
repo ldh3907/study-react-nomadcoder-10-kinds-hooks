@@ -7,7 +7,9 @@ function App() {
   return (
     <HashRouter>
       <Navigation />
-      <Route path="/" exact={true} component={Count} />
+      <section id="content">
+        <Route path="/" exact={true} component={Count} />
+      </section>
     </HashRouter>
   );
 }

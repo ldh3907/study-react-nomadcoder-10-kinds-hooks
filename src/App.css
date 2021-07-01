@@ -11,3 +11,7 @@ body {
   font-family: "Black Han Sans", sans-serif;
   font-family: "Do Hyeon", sans-serif;
 }
+
+#content {
+  margin-top: 100px;
+}

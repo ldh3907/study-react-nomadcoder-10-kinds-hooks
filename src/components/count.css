@@ -1,0 +1,58 @@
+.count-container {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  margin: auto;
+  border-bottom: 0.5px solid #8c8c8c;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 300;
+}
+.count-wrap {
+  width: 50%;
+  height: 90%;
+}
+
+.count-title {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.count-content-wrap {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.button {
+  width: 70px;
+  height: 30px;
+  background-color: white;
+  outline: none;
+  margin: 0px 10px;
+  border-radius: 5px;
+  border: 1px solid #8c8c8c;
+}
+
+.button:active {
+  opacity: 30%;
+  background-color: #8c8c8c;
+  color: white;
+  transition: 1s;
+}
+
+.count-currentnumber {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.count-explain {
+  font-size: 15px;
+}
