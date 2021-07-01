@@ -1,0 +1,44 @@
+.chkinput-container {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  margin: auto;
+  border-bottom: 0.5px solid #8c8c8c;
+}
+
+.chkinput-wrap {
+  width: 50%;
+  height: 90%;
+}
+
+.chkinput-title {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.chkinput-content-wrap {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.chkinput-inputbox {
+  width: 200px;
+}
+
+.chkinput-error {
+  text-align: center;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.chkinput-explain {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 30px;
+}
