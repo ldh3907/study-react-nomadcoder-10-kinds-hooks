@@ -28,10 +28,26 @@ const ChangeSection = () => {
   return (
     <section id="changesection">
       <div className="changesection-container">
-        {content.map((section, index) => (
-          <button onClick={() => changeItem(index)}>{section.tab}</button>
-        ))}
-        <div>{currentItem.content}</div>
+        <div className="changesection-wrap">
+          <div className="changesection-title">Change Section</div>
+          <div className="changesection-content-wrap">
+            <div className="changesection-button-wrap">
+              {content.map((section, index) => (
+                <button
+                  className="changesection-button"
+                  onClick={() => changeItem(index)}
+                >
+                  <div className="changesection-button-text">{section.tab}</div>
+                </button>
+              ))}
+            </div>
+            <div>{currentItem.content}</div>
+            <div className="changesetion-process">버튼을 눌러주세요</div>
+            <div className="changesection-explain">
+              useState 훅을 사용하여 만들었습니다.
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

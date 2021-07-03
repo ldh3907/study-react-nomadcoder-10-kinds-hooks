@@ -8,3 +8,56 @@
   margin: auto;
   border-bottom: 0.5px solid #8c8c8c;
 }
+
+.changesection-wrap {
+  width: 50%;
+  height: 90%;
+}
+
+.changesection-title {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.changesection-content-wrap {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.changesection-button {
+  width: 150px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #8c8c8c;
+  background-color: white;
+}
+
+.changesection-button:active {
+  opacity: 30%;
+  background-color: #8c8c8c;
+  color: white;
+  transition: 1s;
+}
+
+.changesection-button-text {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.changesetion-process {
+  font-size: 35px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.changesection-explain {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 30px;
+}
