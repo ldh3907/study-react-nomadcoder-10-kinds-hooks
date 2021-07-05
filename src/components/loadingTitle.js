@@ -20,7 +20,7 @@ const LoadingTitle = () => {
           <div className="loadingtitle-title">Loading Title</div>
           <div className="loadingtitle-content-wrap">
             <div className="loadingtitle-express">
-              새로고침을 누르면 타이틀이 로딩됩니다.
+              새로고침을 누르면 타이틀이 로딩됩니다
             </div>
             <div className="loadingtitle-explain">
               useEffect 훅을 사용하여 만들었습니다.

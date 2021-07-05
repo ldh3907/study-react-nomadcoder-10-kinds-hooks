@@ -5,6 +5,7 @@ import Navigation from "./components/navigation";
 import CheckInput from "./components/chkinput";
 import ChangeSection from "./components/changesection";
 import LoadingTitle from "./components/loadingtitle";
+import ConfirmInput from "./components/confirminput";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" exact={true} component={CheckInput} />
         <Route path="/" exact={true} component={ChangeSection} />
         <Route path="/" exact={true} component={LoadingTitle} />
+        <Route path="/" exact={true} component={ConfirmInput} />
       </section>
     </HashRouter>
   );
