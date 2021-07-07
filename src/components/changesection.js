@@ -41,7 +41,7 @@ const ChangeSection = () => {
                 </button>
               ))}
             </div>
-            <div>{currentItem.content}</div>
+            <div className="ChangeSection-alert">{currentItem.content}</div>
             <div className="changesetion-process">버튼을 눌러주세요</div>
             <div className="changesection-explain">
               useState 훅을 사용하여 만들었습니다.
