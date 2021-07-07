@@ -44,3 +44,16 @@
 .confirmexit-alert {
   font-weight: 300;
 }
+
+.confirmexit-express {
+  font-size: 35px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.confrimexit-explain {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 30px;
+}
