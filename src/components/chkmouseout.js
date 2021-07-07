@@ -31,7 +31,19 @@ const CheckMouseOut = () => {
 
   return (
     <section id="chkmouseout">
-      <div className="chkmouseout-container"></div>
+      <div className="chkmouseout-container">
+        <div className="chkmouseout-wrap">
+          <div className="chkmouseout-title">Check Mouse Out</div>
+          <div className="chkmouseout-content-wrap">
+            <div className="chkmouseout-express">
+              마우스를 탭창에 놔둬 보세요
+            </div>
+            <div className="chkmouseout-explain">
+              useState, useBeforeLeave 훅을 사용하여 만들었습니다.
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };
