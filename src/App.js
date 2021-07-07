@@ -7,6 +7,7 @@ import ChangeSection from "./components/changesection";
 import LoadingTitle from "./components/loadingtitle";
 import ConfirmInput from "./components/confirminput";
 import ConfirmExit from "./components/confirmexit";
+import CheckMouseOut from "./components/chkmouseout";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" exact={true} component={LoadingTitle} />
         <Route path="/" exact={true} component={ConfirmInput} />
         <Route path="/" exact={true} component={ConfirmExit} />
+        <Route path="/" exact={true} component={CheckMouseOut} />
       </section>
     </HashRouter>
   );
