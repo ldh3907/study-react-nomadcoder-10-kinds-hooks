@@ -10,6 +10,7 @@ import ConfirmExit from "./components/confirmexit";
 import CheckMouseOut from "./components/chkmouseout";
 import FadeText from "./components/fadetext";
 import CheckNetwork from "./components/chknetwork";
+import ScrollColor from "./components/scrollcolor";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/" exact={true} component={CheckMouseOut} />
         <Route path="/" exact={true} component={FadeText} />
         <Route path="/" exact={true} component={CheckNetwork} />
+        <Route path="/" exact={true} component={ScrollColor} />
       </section>
     </HashRouter>
   );

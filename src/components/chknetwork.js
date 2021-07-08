@@ -33,7 +33,7 @@ const CheckNetwork = () => {
             <div className="chknetwork-alert">
               {onLine ? "온라인 상태입니다" : "오프라인 상태입니다"}
             </div>
-            <div class="chknetwork-process">
+            <div className="chknetwork-process">
               와이파이를 해제 하고 새로고침을 해보세요
             </div>
             <div className="chknetwork-explain">
