@@ -8,3 +8,39 @@
   margin: auto;
   border-bottom: 0.5px solid #8c8c8c;
 }
+
+.chknetwork-wrap {
+  width: 50%;
+  height: 90%;
+}
+
+.chknetwork-title {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.chknetwork-content-wrap {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.chknetwork-alert {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.chknetwork-process {
+  margin-top: 30px;
+  font-size: 35px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.chknetwork-explain {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 30px;
+}
