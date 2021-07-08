@@ -13,3 +13,34 @@
   width: 50%;
   height: 90%;
 }
+
+.scrollcolor-title {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.scrollcolor-content-wrap {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.scrollcolor-text {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.scrollcolor-process {
+  margin: 50px;
+  font-size: 35px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.scrollcolor-explain {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 30px;
+}
