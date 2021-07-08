@@ -1,0 +1,10 @@
+.chknetwork-container {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  margin: auto;
+  border-bottom: 0.5px solid #8c8c8c;
+}
