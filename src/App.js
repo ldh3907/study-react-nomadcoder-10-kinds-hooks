@@ -8,6 +8,7 @@ import LoadingTitle from "./components/loadingtitle";
 import ConfirmInput from "./components/confirminput";
 import ConfirmExit from "./components/confirmexit";
 import CheckMouseOut from "./components/chkmouseout";
+import FadeText from "./components/fadetext";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/" exact={true} component={ConfirmInput} />
         <Route path="/" exact={true} component={ConfirmExit} />
         <Route path="/" exact={true} component={CheckMouseOut} />
+        <Route path="/" exact={true} component={FadeText} />
       </section>
     </HashRouter>
   );
