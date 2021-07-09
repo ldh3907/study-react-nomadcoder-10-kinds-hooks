@@ -20,6 +20,7 @@ const ScrollColor = () => {
 
     return state;
   };
+
   const { y } = useScroll();
   return (
     <section id="scrollcolor">
@@ -29,7 +30,9 @@ const ScrollColor = () => {
           <div className="scrollcolor-content-wrap">
             <div
               className="scrollcolor-text"
-              style={{ color: y > 3430 ? "blue" : "black" }}
+              style={{
+                color: y > 3430 ? (y > 4216 ? "black" : "blue") : "black",
+              }}
             >
               10 kind hooks
             </div>
