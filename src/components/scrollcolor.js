@@ -31,7 +31,7 @@ const ScrollColor = () => {
             <div
               className="scrollcolor-text"
               style={{
-                color: y > 3430 ? (y > 4216 ? "black" : "blue") : "black",
+                color: y > 3430 ? (y > 3949 ? "black" : "blue") : "black",
               }}
             >
               10 kind hooks
