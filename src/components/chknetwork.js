@@ -22,7 +22,11 @@ const CheckNetwork = () => {
     return status;
   };
 
-  const onLine = useNetwork();
+  const handleNetworkChange = (online) => {
+    console.log(online ? "온라인" : "오프라인");
+  };
+
+  const onLine = useNetwork(handleNetworkChange);
 
   return (
     <section id="chknetwork">

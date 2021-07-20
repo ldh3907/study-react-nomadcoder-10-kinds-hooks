@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./chkinput.css";
 
 const CheckInput = () => {
-  const useInput = (initialValue, validator) => {
+  const useInput = (initialValue, length) => {
     const [value, setValue] = useState(initialValue);
     const [error, setError] = useState(" ");
     const onChange = (event) => {
